@@ -23,6 +23,7 @@ class _ListStepDetailState extends State<ListStepDetail> {
 
   @override
   Widget build(BuildContext context) {
+    var height = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar:
           AppBar(backgroundColor: Colors.blueGrey, title: Text(widget.title, style: TextStyle(color: Colors.white))),
@@ -32,7 +33,7 @@ class _ListStepDetailState extends State<ListStepDetail> {
           Expanded(
             child: SingleChildScrollView(
               child: Container(
-                height: MediaQuery.of(context).size.height,
+                height: HomeScreen.ads ? height - 190 : height - 90,
                 width: double.infinity,
                 color: Colors.white,
                 child: Center(
@@ -52,7 +53,9 @@ class _ListStepDetailState extends State<ListStepDetail> {
                   height: 100,
                   color: Colors.white,
                 )
-              : Container()
+              : Container(
+                  color: Colors.white,
+                )
         ],
       ),
     );
