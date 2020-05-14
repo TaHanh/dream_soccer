@@ -1,4 +1,4 @@
-package com.example.dreamsoccerclone.adx;
+package com.dreamsoccer.dreamleagueguide.adx;
 
 import android.net.Uri;
 import android.util.Log;

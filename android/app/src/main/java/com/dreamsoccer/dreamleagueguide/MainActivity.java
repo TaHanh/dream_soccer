@@ -1,11 +1,11 @@
-package com.example.dreamsoccerclone;
+package com.dreamsoccer.dreamleagueguide;
 
 import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import com.example.dreamsoccerclone.adx.Config;
-import com.example.dreamsoccerclone.adx.SharedPrefsUtils;
+import com.dreamsoccer.dreamleagueguide.adx.Config;
+import com.dreamsoccer.dreamleagueguide.adx.SharedPrefsUtils;
 
 import io.flutter.embedding.android.FlutterActivity;
 import io.flutter.embedding.engine.FlutterEngine;
@@ -23,7 +23,7 @@ public class MainActivity extends FlutterActivity {
       public void onMethodCall(MethodCall call, MethodChannel.Result result) {
         switch (call.method){
           case "getAppId":{
-            result.success(BuildConfig.APPLICATION_ID);
+            result.success(com.dreamsoccer.dreamleagueguide.BuildConfig.APPLICATION_ID);
             break;
           }
           case "getBannerId":{

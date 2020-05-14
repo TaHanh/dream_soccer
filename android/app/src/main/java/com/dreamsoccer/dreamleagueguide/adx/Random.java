@@ -1,4 +1,4 @@
-package com.example.dreamsoccerclone.adx;
+package com.dreamsoccer.dreamleagueguide.adx;
 
 public class Random {
     public static int nextInt(int min, int max) {

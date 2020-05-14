@@ -1,4 +1,4 @@
-package com.example.dreamsoccerclone.adx;
+package com.dreamsoccer.dreamleagueguide.adx;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -10,7 +10,7 @@ import android.widget.ProgressBar;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.dreamsoccerclone.R;
+import com.dreamsoccer.dreamleagueguide.R;
 import com.szxpsnltpm.adx.service.AdsExchange;
 import com.szxpsnltpm.adx.service.InterstitialAdsManager;
 import com.szxpsnltpm.adx.service.SplashAdRequest;
